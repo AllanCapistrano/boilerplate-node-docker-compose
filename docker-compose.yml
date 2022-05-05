@@ -8,6 +8,8 @@ services:
       - "3000:3000"
     volumes:
       - .:/usr/app
+    environment:
+      - NODE_VERSION=16.15.0
 
   db:
     image: mysql:5.7.37
