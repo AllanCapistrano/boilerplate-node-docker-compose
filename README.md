@@ -12,6 +12,18 @@
 
 ------------
 
+## 💻 Como utilizar ##
+
+1. Renomeie o diretório do projeto;
+2. Remova a pasta `.git`;
+3. Execute o projeto com o comando:
+   ```powershell
+   docker compose up
+   ```
+4. Com os devidos containers em execução, basta instalar as dependências necessárias para o seu projeto e começar a desenvolver;
+
+------------
+
 ## 👨‍💻 Autor ##
 
 | [![Allan Capistrano](https://github.com/AllanCapistrano.png?size=100)](https://github.com/AllanCapistrano) |
